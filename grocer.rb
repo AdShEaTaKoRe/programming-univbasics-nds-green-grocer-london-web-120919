@@ -23,12 +23,13 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   
   unique_items = []
+  items_index = 0
   cart_index = 0
   while cart_index < cart.length do
-      item_name = cart[cart_index][0][:item]
+      item_name = cart[cart_index][:item]
       item_stats = cart[cart_index[:count]
       
-    if unique_items[item_name]
+    if unique_items[items_index][item_name]
       item_stats += 1
       else
       unique_items[item_stats] = 1
