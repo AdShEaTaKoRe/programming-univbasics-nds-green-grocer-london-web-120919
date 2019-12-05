@@ -24,8 +24,8 @@ def consolidate_cart(cart)
   
   unique_items = []
   cart_index = 0
-         item_name = cart[cart_index][:item]
-      item_stats = cart[cart_index[:count]
+      #   item_name = cart[cart_index][:item]
+      # item_stats = cart[cart_index[:count]
   # while cart_index < cart.length do
   #     item_name = cart[cart_index][:item]
   #     item_stats = cart[cart_index[:count]
@@ -36,7 +36,7 @@ def consolidate_cart(cart)
   #     else
   #     unique_items[item_stats] = 1
   #   end
-    
+  unique_items
   binding.pry
 end
 
