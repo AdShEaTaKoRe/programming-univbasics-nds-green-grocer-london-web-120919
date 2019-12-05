@@ -26,6 +26,7 @@ def consolidate_cart(cart)
   items_index = 0
   cart_index = 0
    cart[0]
+   binding.pry
   # while cart_index < cart.length do
   #     item_name = cart[cart_index][:item]
   #     item_stats = cart[cart_index[:count]
