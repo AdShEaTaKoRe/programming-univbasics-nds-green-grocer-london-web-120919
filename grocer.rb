@@ -34,8 +34,9 @@ def consolidate_cart(cart)
   #     else
   #     unique_items[item_stats] = 1
   #   end
-  cart_index += 1
+  
     end
+    cart_index += 1
   unique_items
   binding.pry
 end
