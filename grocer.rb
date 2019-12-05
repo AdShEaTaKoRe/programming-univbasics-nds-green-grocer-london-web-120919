@@ -30,14 +30,14 @@ def consolidate_cart(cart)
   #     item_name = cart[cart_index][:item]
   #     item_stats = cart[cart_index[:count]
       
-    if 
-      item_stats += 1
-      else
-      unique_items[item_stats] = 1
-    end
-  cart_index += 1
-    end
-  unique_items
+  #   if 
+  #     item_stats += 1
+  #     else
+  #     unique_items[item_stats] = 1
+  #   end
+  # cart_index += 1
+  #   end
+  # unique_items
 end
 
   
